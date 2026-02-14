@@ -1,0 +1,14 @@
+云窗				采用解耦合方案进行开发
+├── main.py                 # 主入口文件
+├── config/              # 配置类
+│   ├──__init__.py     #这个文件用于让main.py识别是其中一个模块
+│   ├──config.py
+├── utils/
+│   ├── window_manager.py  # 窗口管理
+│   ├── screen_capture.py  # 屏幕捕获
+│    
+├── servers/
+│   ├── tcp_server.py     # TCP服务器
+│   └── stream_server.py  # 流媒体服务器(TCP+UDP双协议传输)
+├── gui/
+     └── main_gui.py       # GUI界面

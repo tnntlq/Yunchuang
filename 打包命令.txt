@@ -1,0 +1,1 @@
+pyinstaller -F -w -i "app.ico" -n "云窗" --add-data "config;config" --add-data "gui;gui" --add-data "servers;servers" --add-data "utils;utils" main.py
